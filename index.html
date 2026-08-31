@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OG Derma — Which Concept Speaks to You?</title>
+  <meta name="description" content="OG Derma is exploring two brand concepts. Tell us which one speaks to you.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PAGE 1 — HERO                                       -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="page page--hero" id="page-hero">
+    <div class="page__grain"></div>
+    <div class="page__content">
+      <p class="hero__eyebrow">OG Derma</p>
+      <h1 class="hero__title">Two Concepts.<br>You Decide.</h1>
+      <p class="hero__subtitle">
+        We're building a skincare brand — and we want your honest take.<br>
+        Look at two different brand concepts and tell us which one you connect with.
+      </p>
+    </div>
+    <a href="#page-concept-a" class="page__scroll-cta" aria-label="Scroll to Concept A">
+      <span class="page__scroll-text">See Concept A</span>
+      <svg class="page__scroll-arrow" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PAGE 2 — CONCEPT A (PACKAGING SHOWCASE)            -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="page page--concept" id="page-concept-a">
+    <div class="concept-topbar">
+      <div class="concept-label concept-label--a">Concept A</div>
+    </div>
+
+    <div class="concept-showcase">
+      <button class="showcase-nav showcase-nav--prev" aria-label="Previous view" data-target="prev">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+
+      <div class="concept-carousel">
+        <div class="concept-carousel__track">
+
+          <!-- Slide 1: Front Panel -->
+          <div class="concept-carousel__slide" data-index="0">
+            <div class="concept-visual">
+              <div class="placeholder-packaging placeholder-packaging--a">
+                <span class="placeholder-packaging__brand">OG Derma</span>
+                <span class="placeholder-packaging__spacer"></span>
+                <span class="placeholder-packaging__name">ACNE PRONE.<br>OILY SKIN.<br>Cleanser.</span>
+                <span class="placeholder-packaging__line"></span>
+                <span class="placeholder-packaging__volume">100 ml / 3.38 fl. oz.</span>
+              </div>
+            </div>
+            <!-- Swipe / Flip hint arrow -->
+            <button class="swipe-hint swipe-hint--right" data-action="next" aria-label="Swipe to view back panel">
+              <span>View Back Panel</span>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- Slide 2: Back Panel -->
+          <div class="concept-carousel__slide" data-index="1">
+            <div class="concept-visual">
+              <div class="placeholder-packaging placeholder-packaging--a placeholder-packaging--back">
+                <span class="placeholder-packaging__section-title">WHAT YOUR FACE WASH<br>ACTUALLY DOES:</span>
+                <span class="placeholder-packaging__line"></span>
+                <div class="pkg-action-group">
+                  <span class="pkg-action-num">❶</span>
+                  <div class="pkg-action-detail">
+                    <span class="pkg-action-name">Unclog</span>
+                    <span class="pkg-action-desc">Dissolves the gunk sitting inside your pores.</span>
+                  </div>
+                </div>
+                <div class="pkg-action-group">
+                  <span class="pkg-action-num">❷</span>
+                  <div class="pkg-action-detail">
+                    <span class="pkg-action-name">Sebum Control</span>
+                    <span class="pkg-action-desc">Tells your oil glands to chill — not shut down. Prevents oil reboundness.</span>
+                  </div>
+                </div>
+                <span class="placeholder-packaging__line"></span>
+                <span class="placeholder-packaging__volume">100 ml / 3.38 fl. oz.</span>
+              </div>
+            </div>
+            <!-- Swipe / Flip hint arrow -->
+            <button class="swipe-hint swipe-hint--left" data-action="prev" aria-label="Swipe to view front panel">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+              <span>View Front Panel</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Dot Switchers -->
+        <div class="concept-carousel__dots">
+          <button class="concept-carousel__dot is-active" aria-label="Front View">Front</button>
+          <button class="concept-carousel__dot" aria-label="Back View">Back</button>
+        </div>
+      </div>
+
+      <button class="showcase-nav showcase-nav--next" aria-label="Next view" data-target="next">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+
+    <a href="#page-concept-b" class="page__scroll-cta" aria-label="Scroll to Concept B">
+      <span class="page__scroll-text">See Concept B</span>
+      <svg class="page__scroll-arrow" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PAGE 3 — CONCEPT B (PACKAGING SHOWCASE)            -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="page page--concept" id="page-concept-b">
+    <div class="concept-topbar">
+      <div class="concept-label concept-label--b">Concept B</div>
+    </div>
+
+    <div class="concept-showcase">
+      <button class="showcase-nav showcase-nav--prev" aria-label="Previous view" data-target="prev">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+
+      <div class="concept-carousel">
+        <div class="concept-carousel__track">
+
+          <!-- Slide 1: Front Panel with Ingredients -->
+          <div class="concept-carousel__slide" data-index="0">
+            <div class="concept-visual">
+              <div class="placeholder-packaging placeholder-packaging--b">
+                <span class="placeholder-packaging__brand">OG Derma</span>
+                <span class="placeholder-packaging__spacer"></span>
+                <span class="placeholder-packaging__name">ACNE PRONE.<br>OILY SKIN.<br>Cleanser.</span>
+                <span class="placeholder-packaging__line"></span>
+                <div class="placeholder-packaging__ingredients">
+                  <div class="pkg-ingredient-group">
+                    <span class="pkg-ingredient-label">Actives:</span>
+                    <span class="pkg-ingredient-desc">Succinic Acid, LHA, Zinc PCA</span>
+                  </div>
+                  <div class="pkg-ingredient-group">
+                    <span class="pkg-ingredient-label">Surfactants:</span>
+                    <span class="pkg-ingredient-desc">SLS, Cocamidopropyl Betaine</span>
+                  </div>
+                  <div class="pkg-ingredient-group">
+                    <span class="pkg-ingredient-label">Humectants:</span>
+                    <span class="pkg-ingredient-desc">Propanediol</span>
+                  </div>
+                </div>
+                <span class="placeholder-packaging__volume">100 ml / 3.38 fl. oz.</span>
+              </div>
+            </div>
+            <!-- Swipe / Flip hint arrow -->
+            <button class="swipe-hint swipe-hint--right" data-action="next" aria-label="Swipe to view back panel">
+              <span>View Back Panel</span>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- Slide 2: Back Panel with Roles -->
+          <div class="concept-carousel__slide" data-index="1">
+            <div class="concept-visual">
+              <div class="placeholder-packaging placeholder-packaging--b placeholder-packaging--back">
+                <span class="placeholder-packaging__section-title">EVERY INGREDIENT<br>HAS A JOB.</span>
+                <span class="placeholder-packaging__line"></span>
+                <div class="pkg-role-group">
+                  <span class="pkg-role-category">— ACTIVES —</span>
+                  <div class="pkg-role-item">
+                    <span class="pkg-role-name">Succinic Acid</span>
+                    <span class="pkg-role-desc">Kills acne-causing bacteria & calms inflammation.</span>
+                  </div>
+                  <div class="pkg-role-item">
+                    <span class="pkg-role-name">LHA + Zinc PCA</span>
+                    <span class="pkg-role-desc">Unclogs pores & controls oil production.</span>
+                  </div>
+                </div>
+                <div class="pkg-role-group">
+                  <span class="pkg-role-category">— SURFACTANTS —</span>
+                  <div class="pkg-role-item">
+                    <span class="pkg-role-desc">Cleans without stripping — prevents rebound oil.</span>
+                  </div>
+                </div>
+                <div class="pkg-role-group">
+                  <span class="pkg-role-category">— HUMECTANT —</span>
+                  <div class="pkg-role-item">
+                    <span class="pkg-role-name">Propanediol</span>
+                    <span class="pkg-role-desc">Helps actives absorb deeper.</span>
+                  </div>
+                </div>
+                <span class="placeholder-packaging__line"></span>
+                <span class="placeholder-packaging__volume">100 ml / 3.38 fl. oz.</span>
+              </div>
+            </div>
+            <!-- Swipe / Flip hint arrow -->
+            <button class="swipe-hint swipe-hint--left" data-action="prev" aria-label="Swipe to view front panel">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+              <span>View Front Panel</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Dot Switchers -->
+        <div class="concept-carousel__dots">
+          <button class="concept-carousel__dot is-active" aria-label="Front View">Front</button>
+          <button class="concept-carousel__dot" aria-label="Back View">Back</button>
+        </div>
+      </div>
+
+      <button class="showcase-nav showcase-nav--next" aria-label="Next view" data-target="next">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+
+    <a href="#page-form" class="page__scroll-cta" aria-label="Scroll to survey form">
+      <span class="page__scroll-text">Share Your Opinion</span>
+      <svg class="page__scroll-arrow" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PAGE 4 — SURVEY FORM                                -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <section class="page page--form" id="page-form">
+    <div class="page__content page__content--form">
+      <p class="section-eyebrow">Your Opinion</p>
+      <h2 class="section-title">Which Concept Do You Connect With?</h2>
+      <p class="section-desc">
+        No right or wrong answers. Just pick the one that feels right to you — or tell us if neither does.
+      </p>
+
+      <form id="survey-form" class="survey-form" novalidate>
+
+        <fieldset class="form-group">
+          <legend class="form-group__title">About You</legend>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+            </div>
+            <div class="form-field">
+              <label for="age">Age Range <span class="optional">(optional)</span></label>
+              <select id="age" name="age">
+                <option value="" disabled selected>Select your age range</option>
+                <option value="18-20">18 – 20</option>
+                <option value="20-25">20 – 25</option>
+                <option value="25-30">25 – 30</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <legend class="form-group__title">Your Choice</legend>
+          <div class="choice-grid">
+            <label class="choice-option" data-choice="concept-a">
+              <input type="radio" name="choice" value="Concept A" required>
+              <div class="choice-option__card">
+                <div class="choice-option__indicator"></div>
+                <div class="choice-option__content">
+                  <span class="choice-option__label">Concept A</span>
+                  <span class="choice-option__desc">Simplified Clean Design</span>
+                </div>
+              </div>
+            </label>
+            <label class="choice-option" data-choice="concept-b">
+              <input type="radio" name="choice" value="Concept B">
+              <div class="choice-option__card">
+                <div class="choice-option__indicator"></div>
+                <div class="choice-option__content">
+                  <span class="choice-option__label">Concept B</span>
+                  <span class="choice-option__desc">Full Ingredient Transparency</span>
+                </div>
+              </div>
+            </label>
+            <label class="choice-option" data-choice="none">
+              <input type="radio" name="choice" value="Neither">
+              <div class="choice-option__card">
+                <div class="choice-option__indicator"></div>
+                <div class="choice-option__content">
+                  <span class="choice-option__label">Neither</span>
+                  <span class="choice-option__desc">None of these</span>
+                </div>
+              </div>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <legend class="form-group__title">Tell Us Why</legend>
+          <div class="form-field">
+            <label for="reason">What made you pick this? <span class="required">*</span></label>
+            <textarea id="reason" name="reason" rows="4" placeholder="Be honest — there's no wrong answer here." required></textarea>
+          </div>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" id="submit-btn" class="btn-submit">
+            <span class="btn-submit__text">Submit My Choice</span>
+            <span class="btn-submit__loader" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-dasharray="30 70" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="0.8s" repeatCount="indefinite"/></circle></svg>
+            </span>
+          </button>
+        </div>
+
+      </form>
+
+      <div id="success-state" class="success-state" hidden>
+        <div class="success-state__icon">
+          <svg viewBox="0 0 52 52" width="64" height="64">
+            <circle cx="26" cy="26" r="25" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+            <path fill="none" stroke="var(--color-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M14 27l7 7 16-16" class="checkmark"/>
+          </svg>
+        </div>
+        <h2>Thank You!</h2>
+        <p>Your response has been recorded. It genuinely helps us build something better.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer__content">
+      <p class="footer__brand">OG Derma</p>
+      <p class="footer__sub">by OG Life Science · Ahmedabad, India</p>
+      <p class="footer__legal">This survey is for internal product development. Your data is not shared with third parties.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
