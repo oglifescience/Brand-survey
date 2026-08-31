@@ -9,7 +9,7 @@
   /* ─────────────────────────────────────────────────────────
      CONFIG — Update this URL after deploying Google Apps Script
      ───────────────────────────────────────────────────────── */
-  const GOOGLE_SCRIPT_URL = '';  // ← Paste your Apps Script Web App URL here
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzMQ-0Gk4suRwcd2arv08dpoZ_kc-Hk2R38RGAhduDvqnJgQVHtz8KYIJk5onUIKG_8Lw/exec';
 
 
   /* ─── DOM REFS ────────────────────────────────────────── */
