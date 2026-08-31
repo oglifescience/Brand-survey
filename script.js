@@ -234,14 +234,15 @@
           await fetch(GOOGLE_SCRIPT_URL, {
             method: 'POST',
             mode: 'no-cors',
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
             body: JSON.stringify(data),
           });
         }
 
-        form.hidden = true;
+        form.style.display = 'none';
         if (successState) {
           successState.hidden = false;
+          successState.style.display = 'block';
           successState.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
 
